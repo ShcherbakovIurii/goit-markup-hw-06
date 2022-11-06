@@ -650,8 +650,6 @@ img {
 .logo-footer:focus {
   color: var(--accent-color);
 }
-.addres {
-}
 
 .info-list {
   list-style: none;
@@ -757,9 +755,6 @@ img {
   margin-right: 12px;
 }
 
-.form-footer-label {
-}
-
 .form-footer-input {
   padding-left: 16px;
   width: 358px;
@@ -768,7 +763,7 @@ img {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  /* outline: none; */
+  outline: none;
   border: 1px solid var(--border-form-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -782,8 +777,8 @@ img {
   color: var(--placeholder-text-color);
 }
 
-.form-footer-field:focus {
-  border-color: var(--border-form-focus-color);
+.form-footer-input:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .footer-button {
@@ -966,6 +961,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  cursor: pointer;
 }
 
 .checkbox-link {
